@@ -1,4 +1,4 @@
-const CACHE = "english-journey-v4";
+const CACHE = "english-journey-v5";
 const BASE = new URL("./", self.location.href).pathname;
 const asset = (name = "") => `${BASE}${name}`;
 const APP_SHELL = [asset(), asset("manifest.webmanifest"), asset("journey-version.json"), asset("icon-192.png"), asset("icon-512.png"), asset("apple-touch-icon.png")];
